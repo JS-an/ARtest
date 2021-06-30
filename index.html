@@ -1,32 +1,36 @@
-<!-- 导入必要的js文件，为加快访问，已经下载到自己的服务器上 -->
-<script src="./aframe-master.min.js"></script>
-<script src="./aframe-ar-nft.js"></script>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- 导入必要的js文件，为加快访问，已经下载到自己的服务器上 -->
+  <script src="./aframe-master.min.js"></script>
+  <script src="./aframe-ar-nft.js"></script>
+  <!-- 页面的样式 -->
+  <style>
+    .arjs-loader {
+      height: 100%;
+      width: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      background-color: rgba(0, 0, 0, 0.8);
+      z-index: 9999;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .arjs-loader div {
+      text-align: center;
+      font-size: 1.25em;
+      color: white;
+    }
+  </style>
 </head>
-
-<!-- 页面的样式 -->
-<style>
-  .arjs-loader {
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-color: rgba(0, 0, 0, 0.8);
-    z-index: 9999;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .arjs-loader div {
-    text-align: center;
-    font-size: 1.25em;
-    color: white;
-  }
-</style>
 
 <body style="margin : 0px; overflow: hidden;">
   <!-- 在加载图像描述符之前，将显示“正在加载”的页面。 根据设备的计算能力，加载可能需要一段时间 -->
@@ -49,3 +53,5 @@
     <a-entity camera></a-entity>
   </a-scene>
 </body>
+
+</html>
