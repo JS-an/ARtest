@@ -1,0 +1,11 @@
+Model Information:
+* title:	Boba Fett | Battlefront II
+* source:	https://sketchfab.com/3d-models/boba-fett-battlefront-ii-f2cf6bc4a0cc4415a1783a932e5bebe4
+* author:	JuztAndy (https://sketchfab.com/JuztAndy)
+
+Model License:
+* license type:	CC-BY-ND-4.0 (http://creativecommons.org/licenses/by-nd/4.0/)
+* requirements:	Author must be credited. Modified versions can not be distributed. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Boba Fett | Battlefront II" (https://sketchfab.com/3d-models/boba-fett-battlefront-ii-f2cf6bc4a0cc4415a1783a932e5bebe4) by JuztAndy (https://sketchfab.com/JuztAndy) licensed under CC-BY-ND-4.0 (http://creativecommons.org/licenses/by-nd/4.0/)
